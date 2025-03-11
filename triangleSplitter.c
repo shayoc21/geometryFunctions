@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//this code takes a Plane defined by a normal and perpendicular distance to the origin, as well as a triangle, and splits the triangle into 3 smaller ones.
+// used by my BSP tree generation
+
 struct vec3
 {
 	float x, y, z;
